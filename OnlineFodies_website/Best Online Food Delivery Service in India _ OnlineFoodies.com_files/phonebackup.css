@@ -1,0 +1,90 @@
+#navbar {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#navbar ul li a{
+    font-size: 1rem;
+    padding:  0px 7px;
+    padding-bottom: 8px;
+}
+#HOME {
+    height: 370px;
+    padding: 3px 68px;
+    justify-content: center;
+    align-items: center;
+}
+#HOME::before {
+    height: 480px;
+}
+#HOME p{
+    font-size: 13px;
+    justify-content: center;
+    align-items: center;
+}
+#services {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#services .box{
+    /*
+    height: fit-content;
+    width: fit-content;
+    */
+    padding: 10px;
+    border: 2px solid brown;
+    height: 255px;
+    width: 400px;
+}
+#services .box p {
+    flex-wrap: wrap;
+    
+}
+
+#services .box img {
+    height: 80px;
+    margin: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: block;
+}
+#Clients {
+    flex-wrap: wrap;
+}
+#Clients img {
+    width: auto;
+}
+#Client-section::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 48%;
+    z-index: -1;
+    opacity: 0.4;
+
+}
+#contact {
+    padding: auto;
+    position: relative;
+
+}
+#contact-box {
+    padding-top: 50px;
+    padding-bottom: 34px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*utility classes*/
+.h-primary {
+    font-size: 26px;
+
+}
+
+.btn {
+    font-size: 12px;
+    padding: 4px 10px;
+
+}
